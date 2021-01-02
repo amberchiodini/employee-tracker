@@ -33,6 +33,7 @@ function runSearch() {
           "View all departments", 
           "View all roles", 
           "View all employees",
+          "Update employee info",
           "Exit"
         ]
       })
@@ -61,7 +62,11 @@ function runSearch() {
             case "View all employees":
                 viewAllEmployees();
                 break;
-      
+                
+            case "Update employee info":
+                updateEmployeeInfo();
+                break;
+
             case "Exit":
               connection.end();
               break;
