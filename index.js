@@ -1,7 +1,6 @@
 // Node modules
 var mysql = require("mysql");
 var inquirer = require("inquirer");
-const { SSL_OP_NO_TICKET } = require("constants");
 
 // Establish a connection
 var connection = mysql.createConnection({
@@ -18,7 +17,7 @@ var connection = mysql.createConnection({
     database: "employee_trackerDB"
 });
 
-//Initialize runSearch() if connection is established
+// Initialize runSearch() if connection is established
 connection.connect(function (err) {
     if (err) throw err;
     runSearch();
