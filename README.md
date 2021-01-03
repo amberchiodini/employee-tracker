@@ -13,6 +13,7 @@
 I created a command-line terminal interface that allows a business owner to manage their departments, roles, and employees using Node.js, Inquirer, and mySQL. 
 
 ## First Look: 
+![employee_trackerAC](https://user-images.githubusercontent.com/69092983/103469450-a9f06000-4d2a-11eb-922d-80924b32c85e.gif)
 
 ## Technologies Used:
 * [NodeJS](https://nodejs.org/en/)
@@ -21,8 +22,6 @@ I created a command-line terminal interface that allows a business owner to mana
 
 ## Installation:
 You will first need to install the node modules that are required to run this program by typing ```npm i inquirer``` and ```npm i mysql``` into your terminal.
-
-## Links:
 
 ## License: 
 MIT License
