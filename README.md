@@ -21,7 +21,7 @@ I created a command-line terminal interface that allows a business owner to mana
 * [mySQL](https://www.mysql.com/)
 
 ## Installation:
-You will first need to install the node modules that are required to run this program by typing ```npm i inquirer``` and ```npm i mysql``` into your terminal.
+You will first need to install the node modules that are required to run this application by typing ```npm i inquirer``` and ```npm i mysql``` into your terminal. Then, to use this application locally, run ```node index.js``` into your terminal.
 
 ## License: 
 MIT License
